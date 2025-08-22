@@ -1,0 +1,37 @@
+/* Estilos para el efecto de caída de pétalos */
+
+.petal {
+    /* Posicionamiento y visibilidad */
+    position: fixed; /* Flota sobre todo el contenido y no se mueve con el scroll */
+    top: -150px;     /* Comienza fuera de la pantalla, por arriba */
+    /* Un z-index muy alto para asegurar que esté por encima de todo, incluida la barra de navegación. */
+    z-index: 9999;
+    pointer-events: none; /* Evita que los pétalos bloqueen los clics en la página */
+
+    /* Optimización: le decimos al navegador qué propiedades vamos a animar */
+    will-change: top, transform;
+
+    /* Las siguientes propiedades son aplicadas por leaves.js: */
+    /* - width, height, animation */
+}
+
+/* Animación para la caída vertical (usando la propiedad 'top') */
+@keyframes fall {
+    to {
+        /* Mueve el pétalo hasta el final de la pantalla */
+        top: 100vh;
+    }
+}
+
+/* Animación para el balanceo y la rotación (usando la propiedad 'transform') */
+@keyframes sway {
+    /* El 0% define el estado inicial de la animación, con la rotación base. */
+    0% {
+        transform: rotate(var(--initial-rotation, 0deg));
+    }
+    /* El 100% es el estado final, con el desplazamiento lateral y una rotación adicional para simular el balanceo. */
+    /* La animación alterna entre 0% y 100% para crear el efecto de vaivén. */
+    100% {
+        transform: translateX(var(--sway-distance)) rotate(calc(var(--initial-rotation, 0deg) + 35deg));
+    }
+}

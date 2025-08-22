@@ -1,0 +1,31 @@
+#invitacion-personal {
+    position: relative;
+    overflow: hidden; /* To contain the pseudo-element */
+    z-index: 0;
+}
+
+#invitacion-personal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/ramo1.svg'); 
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    opacity: 0.2; /* Un poco más visible pero sutil */
+    z-index: -1;
+
+    /* Mobile-first: 'contain' asegura que la imagen completa se vea */
+    background-size: cover;
+}
+
+/* Opcional: Para desktop puedes hacerla más pequeña si lo deseas */
+@media (min-width: 768px) {
+    #invitacion-personal::before {
+        /* Si te gusta 'contain' en desktop, puedes eliminar esta regla. */
+        /* Si prefieres el tamaño anterior, puedes dejarla en 50%. */
+        background-size: 50%;
+    }
+}
