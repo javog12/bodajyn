@@ -15,7 +15,7 @@ function createPetal() {
     const petal = document.createElement('div');
     petal.classList.add('petal'); 
     
-    petal.style.backgroundImage = 'url(images/petalo1.png)';
+    petal.style.backgroundImage = 'url(images/petaloA.png)';
     petal.style.backgroundSize = 'contain';
     petal.style.backgroundRepeat = 'no-repeat';
     petal.style.backgroundPosition = 'center';
