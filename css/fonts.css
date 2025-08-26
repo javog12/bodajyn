@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Dita Rusta';
+  src: url('../fonts/Dita_Rusta.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Highes Signature';
+  src: url('../fonts/Highes_Signature.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Felix Titling';
+  src: url('../fonts/Felix-Titling.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-highes-signature {
+  font-family: 'Highes Signature', sans-serif;
+}
+
+.font-dita-rusta {
+  font-family: 'Dita Rusta', sans-serif;
+}
+
+.font-felix-titling {
+  font-family: 'Felix Titling', sans-serif;
+}
+
+/* Aplicar Felix Titling a títulos de secciones específicas */
+#el-gran-dia h2,
+#mesa-de-regalos h2,
+#confirma-tu-asistencia h2,
+#nuestras-fotos h2,
+#codigo-de-vestimenta h2 {
+  font-family: 'Felix Titling', sans-serif;
+}
+
+@font-face {
+  font-family: 'Playfair Display Italic';
+  src: url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+.font-playfair-italic {
+  font-family: 'Playfair Display Italic', serif;
+}

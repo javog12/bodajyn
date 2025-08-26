@@ -3,7 +3,7 @@
 function createPetal() {
     // Constantes para mejor legibilidad y fácil ajuste
     const MIN_SIZE_PX = 15;
-    const MAX_SIZE_PX = 40;
+    const MAX_SIZE_PX = 25;
     const MIN_FALL_DURATION_S = 5;
     const MAX_FALL_DURATION_S = 15;
     const MIN_SWAY_DURATION_S = 2;

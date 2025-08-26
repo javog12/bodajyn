@@ -623,3 +623,33 @@ h1, h2, h3 {
     position: relative;
     z-index: 2;
 }
+
+/* =============================================================== */
+/* === ESTILO FINAL: ITINERARIO DE COBERTURA TOTAL             === */
+/* =============================================================== */
+
+#itinerario-celebracion {
+    /* Altura de la sección, se mantiene igual */
+    height: 100vh;
+    min-height: 800px; 
+
+    /* --- CÓDIGO ACTUALIZADO --- */
+    /* El color de fondo base ahora es un fallback */
+    background-color: #C5BCAD;
+
+    /* Usamos la propiedad "background" para definir las capas, separadas por una coma */
+    background:
+        /* Capa 1 (Arriba): Tu imagen SVG */
+        /* Mantenemos tu configuración de "cover" y "center" */
+        url('../images/iterario.svg') center center / cover no-repeat,
+        
+        /* Capa 2 (Abajo): El fondo de dos colores sólidos */
+        linear-gradient(to bottom, #F5F9E6 50%, #4B4B34 50%);
+}
+
+/* --- Adaptabilidad para móviles (sin cambios) --- */
+@media (max-width: 768px) {
+    #itinerario-celebracion {
+        min-height: 600px;
+    }
+}
