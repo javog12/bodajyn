@@ -280,7 +280,7 @@ const guestList = {
         passes: 2
     },
     "mZ9sQ4d": {
-        names: "Maria Luz paz Soldan y Esposo",
+        names: "Maria Luz paz Soldan y Sr.Esposo",
         passes: 2
     },
     "aB6tW1e": {
