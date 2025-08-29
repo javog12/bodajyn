@@ -359,14 +359,6 @@ h1, h2, h3 {
 /* =============================================================== */
 /* === UX REDESIGN: CELEBRACIÓN (CON LÍNEA DE TIEMPO)        === */
 /* =============================================================== */
-#itinerario-celebracion {
-    background-color: var(--color-background-light); 
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-#itinerario-celebracion .itinerary-title {
-    color: var(--color-primary-dark); 
-}
 .timeline-v2 {
     position: relative;
     max-width: 600px;
@@ -624,32 +616,40 @@ h1, h2, h3 {
     z-index: 2;
 }
 
-/* =============================================================== */
-/* === ESTILO FINAL: ITINERARIO DE COBERTURA TOTAL             === */
-/* =============================================================== */
-
 #itinerario-celebracion {
-    /* Altura de la sección, se mantiene igual */
-    height: 100vh;
-    min-height: 800px; 
-
-    /* --- CÓDIGO ACTUALIZADO --- */
-    /* El color de fondo base ahora es un fallback */
+    padding: 0;
     background-color: #C5BCAD;
-
-    /* Usamos la propiedad "background" para definir las capas, separadas por una coma */
-    background:
-        /* Capa 1 (Arriba): Tu imagen SVG */
-        /* Mantenemos tu configuración de "cover" y "center" */
-        url('../images/iterario.svg') center center / cover no-repeat,
-        
-        /* Capa 2 (Abajo): El fondo de dos colores sólidos */
-        linear-gradient(to bottom, #F5F9E6 50%, #4B4B34 50%);
 }
 
-/* --- Adaptabilidad para móviles (sin cambios) --- */
-@media (max-width: 768px) {
-    #itinerario-celebracion {
-        min-height: 600px;
+/* En dispositivos móviles, remueve el padding horizontal del contenedor */
+@media (max-width: 767px) {
+    #itinerario-celebracion .container {
+        padding-left: 0;
+        padding-right: 0;
     }
+}
+
+@media (min-width: 768px) {
+#itinerario-celebracion {
+    /* El color de fondo del sitio web para que la tarjeta resalte */
+    background-color: var(--color-primary-medium); 
+    /* Padding para dar espacio vertical alrededor de la tarjeta */
+    padding: 1rem;
+}
+
+.itinerario-imagen-principal {
+    display: block;
+    /* Tamaño fijo para desktop */
+    max-width: 450px; 
+    margin: 0 auto;
+    /* Borde sutil */
+    border: 1px solid var(--color-accent);
+    /* Borde redondeado */
+    border-radius: 8px; 
+    /* Sombra para efecto de "flotante" */
+    box-shadow: 0 10px 30px rgba(75, 75, 52, 0.07);
+}
+
+
+}
 }
