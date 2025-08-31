@@ -52,7 +52,7 @@ const guestList = {
         passes: 2
     },
     "eF1mG6x": {
-        names: "Cirilo Melgar",
+        names: "Darvy Yonathan Peredo",
         passes: 1
     },
     "yI8cH7z": {
@@ -84,7 +84,7 @@ const guestList = {
         passes: 2
     },
     "mC4iY5g": {
-        names: "Rodrigo Blumberg",
+        names: "Rodrigo Blumberg y Novia",
         passes: 2
     },
     "vB1jZ6h": {
@@ -116,8 +116,8 @@ const guestList = {
         passes: 1
     },
     "kH7qH4o": {
-        names: "Fernando Crespo",
-        passes: 1
+        names: "Fernando Crespo y Novia",
+        passes: 2
     },
     "uI4rI5p": {
         names: "Fernando Encinas y Esposa",
@@ -132,8 +132,8 @@ const guestList = {
         passes: 2
     },
     "fO5uL8s": {
-        names: "Marcelo Cortez",
-        passes: 1
+        names: "Marcelo Cortezy Novia",
+        passes: 2
     },
     "tP2vM9t": {
         names: "Cesar Choque",
