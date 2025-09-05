@@ -180,7 +180,7 @@ const guestList = {
         passes: 2
     },
     "jB3gX2e": {
-        names: "Aracely Soria y Novio",
+        names: "Aracely Soria",
         passes: 2
     },
     "kC7hY3f": {
