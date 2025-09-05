@@ -8,7 +8,7 @@ const guestList = {
         passes: 2
     },
     "pL2jA1d": {
-        names: "Miguel Aguilar y Helga Pinto",
+        names: "Miguel y Helga",
         passes: 2
     },
     "bN9sY5f": {
@@ -17,7 +17,7 @@ const guestList = {
     },
     "qG4cT7h": {
         names: "Nelly Aguilar",
-        passes: 2
+        passes: 1
     },
     "xJ1vE9k": {
         names: "Ariel Vargas",
@@ -224,7 +224,7 @@ const guestList = {
         passes: 2
     },
     "nN4rI4p": {
-        names: "Andrea Sorich y Novio",
+        names: "Juan Pablo y Andrea",
         passes: 2
     },
     "mM1sJ5q": {
@@ -236,8 +236,8 @@ const guestList = {
         passes: 2
     },
     "zP5uL7s": {
-        names: "Laura Barrientos",
-        passes: 1
+        names: "Laura y Diego",
+        passes: 2
     },
     "dQ2vM8t": {
         names: "Ximena Burgos",
@@ -260,15 +260,15 @@ const guestList = {
         passes: 1
     },
     "eI4aR4y": {
-        names: "Andrea Balcazar y Andres",
-        passes: 2
+        names: "Andrea Balcazar",
+        passes: 1
     },
     "sJ1bS5z": {
         names: "Diego Parra y Esposa",
         passes: 2
     },
     "fK8cT6a": {
-        names: "Laura Caballero y Novio",
+        names: "Marco y Laura",
         passes: 2
     },
     "tL5dU7b": {
@@ -296,7 +296,7 @@ const guestList = {
         passes: 1
     },
     "hE4wZ5h": {
-        names: "Aracely Soria",
-        passes: 2
+        names: "Andres Aguilera",
+        passes: 1
     }
 };
