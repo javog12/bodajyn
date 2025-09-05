@@ -1,6 +1,6 @@
 const guestList = {
     "VzH3oKp": {
-        names: "Javier Aguilar y Esposa",
+        names: "Luis Hurtado y Esposa",
         passes: 2
     },
     "kE6wR8g": {
@@ -112,7 +112,7 @@ const guestList = {
         passes: 1
     },
     "bF3pG3n": {
-        names: "Israel Saucedo",
+        names: "Gabriela Ravelo",
         passes: 1
     },
     "kH7qH4o": {
@@ -192,7 +192,7 @@ const guestList = {
         passes: 2
     },
     "eE1jA5h": {
-        names: "Basilia Salazar",
+        names: "Hiromi Yara",
         passes: 1
     },
     "sF8kB6i": {
