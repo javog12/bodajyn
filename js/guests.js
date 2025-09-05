@@ -4,7 +4,7 @@ const guestList = {
         passes: 2
     },
     "kE6wR8g": {
-        names: "Danier Melgar y Esposa",
+        names: "Danier Melgar y Sra. Esposa",
         passes: 2
     },
     "pL2jA1d": {
@@ -132,7 +132,7 @@ const guestList = {
         passes: 2
     },
     "fO5uL8s": {
-        names: "Marcelo Cortezy Novia",
+        names: "Marcelo Cortez y Novia",
         passes: 2
     },
     "tP2vM9t": {
@@ -149,7 +149,7 @@ const guestList = {
     },
     "oT3yP3w": {
         names: "Marcelo Paz Soldan y Esposa",
-        passes: 4
+        passes: 2
     },
     "iU7zQ4x": {
         names: "Manuel Villanova y Sra",
