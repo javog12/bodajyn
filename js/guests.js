@@ -216,7 +216,7 @@ const guestList = {
         passes: 1
     },
     "oK3pG2n": {
-        names: "Nicole Viruez y Novio",
+        names: "Nicole y Kristhian",
         passes: 2
     },
     "iL7qH3o": {
