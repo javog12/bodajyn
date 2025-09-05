@@ -8,7 +8,7 @@ const guestList = {
         passes: 2
     },
     "pL2jA1d": {
-        names: "Miguel Aguilar y Novia",
+        names: "Miguel Aguilar y Helga Pinto",
         passes: 2
     },
     "bN9sY5f": {
