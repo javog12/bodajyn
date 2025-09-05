@@ -188,7 +188,7 @@ const guestList = {
         passes: 2
     },
     "uD4iZ4g": {
-        names: "Leandro Flores",
+        names: "Leandro Flores y Sra",
         passes: 2
     },
     "eE1jA5h": {
