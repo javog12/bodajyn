@@ -176,7 +176,7 @@ const guestList = {
         passes: 1
     },
     "pA6fW1d": {
-        names: "Gabriela Paz Soldan y Novio",
+        names: "Gabriela Paz Soldan y Leonardo",
         passes: 2
     },
     "jB3gX2e": {
@@ -244,7 +244,7 @@ const guestList = {
         passes: 1
     },
     "pE9wN9u": {
-        names: "Cinthia Iriarte y Novio",
+        names: "Cinthia Iriarte y Lucas",
         passes: 2
     },
     "jF6xO1v": {
